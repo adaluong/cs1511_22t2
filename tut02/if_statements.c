@@ -24,7 +24,7 @@ int main(void) {
     }
     
     if (a > b) {
-        printf("%d %f", a / b, (a * 1.0) / (b * 1.0));
+        printf("%d %lf", a / b, (a * 1.0) / (b * 1.0));
     }  
 
 
